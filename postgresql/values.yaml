@@ -40,11 +40,6 @@ image:
 ## String to fully override postgresql.fullname template
 ##
 # fullnameOverride:
-### create namespaces
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: mysql
 ##
 ## Init containers parameters:
 ## volumePermissions: Change the owner of the persist volume mountpoint to RunAsUser:fsGroup
