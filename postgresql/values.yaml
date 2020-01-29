@@ -230,12 +230,12 @@ service:
   ## PosgresSQL service type
   type: NodePort
   # clusterIP: None
-  port: 3306
+  port: 5432
 
   ## Specify the nodePort value for the LoadBalancer and NodePort service types.
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
-  nodePort: 32000
+  nodePort: 33000
 
   ## Provide any additional annotations which may be required.
   ## The value is evaluated as a template, so, for example, the value can depend on .Release or .Chart
